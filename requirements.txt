@@ -1,0 +1,31 @@
+# ──────────────────────────────────────────────────────────────
+#  Walking Stick — Pi Dependencies
+#  picamera2 is a system package — see README for install steps
+# ──────────────────────────────────────────────────────────────
+
+# OpenCV with GUI support (for cv2.imshow)
+opencv-python>=4.8.0
+
+# NumPy
+numpy>=1.24.0
+
+# Ultralytics YOLO (inference engine)
+ultralytics>=8.0.0
+
+# ONNX Runtime (lightweight backend for .onnx models — no PyTorch needed)
+onnxruntime>=1.15.0
+
+# MPU-6050 accelerometer / gyroscope (I2C)
+smbus2>=0.4.0
+
+# GPS module (UART serial)
+pyserial>=3.5
+
+# Hardware GPIO control (Ultrasonic, Buzzer, Motor)
+RPi.GPIO>=0.7.1
+
+# Offline text-to-speech engine; install espeak-ng at the OS level on Raspberry Pi
+pyttsx3>=2.90
+
+# Wakatech device-to-backend transport
+paho-mqtt>=2,<3
